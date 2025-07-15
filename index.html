@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz de Impacto Social</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz de Impacto no Mundo</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Qual seu impacto no mundo?</h1>
+  <div class="container fade">
+    <h1>Qual é o seu impacto no mundo?</h1>
+    <div id="progress"></div>
     <div id="quiz-container"></div>
-    <button id="next-btn">Próxima</button>
+    <button id="next-btn" class="hidden">Próxima</button>
     <div id="result" class="hidden"></div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
